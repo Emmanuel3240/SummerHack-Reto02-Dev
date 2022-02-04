@@ -27,7 +27,7 @@ nav {
 }
 
 #logo {
-  width: 200px;
+  width: 150px;
 }
 
 header nav a {
@@ -52,7 +52,8 @@ ul li {
 }
 
 iframe {
-  max-width: 500px;
+  max-width: 400px;
+  max-height: 200px;
 }
 
 #heroContainer {
