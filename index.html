@@ -4,19 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Cotorrisa Podcast</title>
+
+    <meta name="description" content="La Cotorrisa Podcast" />
+    <meta name="keywords" content="La Cotorrisa, Podcast, humor, méxico" />
+    <meta name="author" content="Emmanuel Lagneau" />
+    <meta name="copyright" content="La Cotorrisa" />
+    <meta name="robots" content="index follow" />
+    <meta property="og:title" content="La Cotorrisa Podcast" />
+    <meta property="og:description" content="La Cotorrisa" />
+    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:url" content="https://summerhack-reto02-dev.web.app/" />
+    <meta property="og:site_name" content="La Cotorrisa" />
+    <meta property="twitter:type" content="website" />
+    <meta property="twitter:title" content="La Cotorrisa Podcast" />
+    <meta property="twitter:description" content="La Cotorrisa" />
+    <meta property="twitter:image" content="img/logo.png" />
+    <meta
+      property="twitter:url"
+      content="https://summerhack-reto02-dev.web.app/"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title itemprop="name">La Cotorrisa Podcast</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@150;300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="/img/ico.png" type="image/x-icon" />
   </head>
   <body>
     <header>
       <nav>
         <div class="logoContainer">
           <a href="index.html"
-            ><img id="logo" src="/img/logo.png" alt="logo La Cotorrisa" />
+            ><img
+              itemprop="image"
+              id="logo"
+              src="/img/logo.png"
+              alt="logo La Cotorrisa"
+            />
           </a>
         </div>
 
@@ -27,6 +59,7 @@
             </li>
             <li>
               <a
+                itemprop="url"
                 href="https://open.spotify.com/show/3a36uQneX1imRuopaknUqw?si=2c00c340d65b418a"
                 >Podcast</a
               >
@@ -38,7 +71,11 @@
         </div>
       </nav>
 
-      <div id="heroContainer">
+      <div
+        id="heroContainer"
+        itemscope
+        itemtype="https://schema.org/PodcastSeries"
+      >
         <iframe
           style="border-radius: 12px"
           src="https://open.spotify.com/embed/show/3a36uQneX1imRuopaknUqw?utm_source=generator&theme=0"
@@ -55,7 +92,7 @@
       <div class="card">
         <img src="/img/logo.png" alt="podcast" />
         <h3>Episodio 1 - Anticonceptivos para hombres</h3>
-        <p>
+        <p itemprop="description">
           Ricardo Pérez y Slobotzky se ponen a cotorrear como siempre, pero
           ahora lo están grabando. Escuchalos todos los miercoles hablando de
           noticias extrañas, datos curiosos, anecdotas hilarantes y aliviana el
